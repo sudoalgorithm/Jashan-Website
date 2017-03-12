@@ -6,10 +6,18 @@ html,body{
   font-family: 'Roboto', sans-serif;
 }
 
-.indeximg{
+#section2{
   height: 100%;
   width: 100%;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+#mainb{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+
 }
 
 .sidenav {
@@ -86,4 +94,8 @@ html,body{
 
 .form-control{
   padding: 25px 12px;
+}
+
+a: hover{
+  text-decoration: none;
 }
