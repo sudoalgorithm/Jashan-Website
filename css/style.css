@@ -13,11 +13,15 @@ html,body{
   background-attachment: fixed;
 }
 
-#mainb{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+.rules{
+  font-size: 25px;
+}
 
+.indexing{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sidenav {
@@ -34,9 +38,7 @@ html,body{
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s
@@ -98,4 +100,19 @@ html,body{
 
 a: hover{
   text-decoration: none;
+}
+
+.navitems{
+  font-size: 20px;
+  color: #6E6E6E;
+}
+
+.navlist{
+  font-size: 22px;
+  color: #E0E0E0;
+  margin-bottom: 10px;
+}
+
+#section4{
+  font-size: 20px;
 }
