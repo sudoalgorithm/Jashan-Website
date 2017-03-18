@@ -116,3 +116,21 @@ a: hover{
 #section4{
   font-size: 20px;
 }
+
+#section4music{
+  font-size: 18px;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 20px;
+}
